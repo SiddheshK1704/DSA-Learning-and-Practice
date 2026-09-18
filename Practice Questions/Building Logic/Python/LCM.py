@@ -8,7 +8,7 @@ def gcd(a,b):
         
     return a
     
-lcm=int((a*b)/gcd(a,b))
+lcm=int((a*b)/gcd(a,b)) #since we know that lcm(a,b)*gcd(a,b)=a*b, we can find lcm by dividing a*b by gcd(a,b)
 
 print(f"The LCM of the two numbers is:{lcm}")
         
