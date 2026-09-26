@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>//very important condition: The array ,ust be sorted before binary search
 #include<vector>
 #include<map>
 using namespace std;
